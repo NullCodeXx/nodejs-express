@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "Des applications ultra-rapides avec Node.js || Les modules Node.js et NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djaafarcode/nodejs-express.git"
+  },
+  "author": "D. BOUMAZA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djaafarcode/nodejs-express/issues"
+  },
+  "homepage": "https://github.com/djaafarcode/nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
