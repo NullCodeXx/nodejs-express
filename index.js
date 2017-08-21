@@ -26,7 +26,7 @@ app.use("/tata/plouc/", express.static('public'));
 
 // doc Comment puis-je gérer des réponses 404 ?: http://expressjs.com/fr/starter/faq.html
 
-app.use(function(req, res, next) {
+app.use(function(req, res, next) { 
   res.status(404).send('Erreur page 404');
-  console.log(res.status);
+  res.sendFile(__dirname + "/public/content/404.html"); //__dirname est remplacer par /home/solo/...mondossiercourant.
 });
