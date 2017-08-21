@@ -22,3 +22,11 @@ app.use("/tata/plouc/", express.static('public'));
 //   res.send('Salut tout le monde!');
 // });
 
+//Renvoyer un Code erreur.
+
+// doc Comment puis-je gérer des réponses 404 ?: http://expressjs.com/fr/starter/faq.html
+
+app.use(function(req, res, next) {
+  res.status(404).send('Erreur page 404');
+  console.log(res.status);
+});
